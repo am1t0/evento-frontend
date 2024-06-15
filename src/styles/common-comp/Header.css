@@ -1,0 +1,100 @@
+.app-header {
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left .logo {
+    /* border: 1px solid red; */
+    height: 40px;
+}
+
+.searchbar{
+    width:20rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+.header-right {
+    /* outline: 1px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.event-types {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25rem;
+    gap: 32px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item a:hover {
+    color: #007bff;
+}
+
+.user-actions {
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 14rem;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.event-host {
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.event-host:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.account-business {
+    padding: 5px 10px;
+    border: 1px solid #ffb400;
+    border-radius: 20px;
+    color: #ffb400;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.account-business:hover {
+    background-color: #ffb400;
+    color: #fff;
+}

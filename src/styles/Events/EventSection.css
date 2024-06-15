@@ -1,0 +1,61 @@
+.eventSection {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px 40px 0px;
+}
+.eventSection .eventType{
+    /* border: 1px solid red; */
+    text-align: start;
+    width: 85%;
+    font-size: 26px;
+    font-weight: 500;
+}
+.eventSection .eventList {
+    display: flex;
+    overflow-x: auto;
+    width: 83vw;
+    gap: 40px; /* Adjust gap as needed */
+    padding: 10px 20px;
+    scroll-behavior: smooth; /* Optional: for smooth scrolling */
+}
+
+/* sroller design  */
+
+/* WebKit (Chrome, Safari) */
+.eventSection .eventList::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.eventSection .eventList::-webkit-scrollbar-track {
+    background-color: #f2f2f2; /* Track color (background behind the scrollbar) */
+    border: 1px solid #ddd; /* Light boundary around the track */
+}
+
+.eventSection .eventList::-webkit-scrollbar-thumb {
+    border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.eventSection .eventList::-webkit-scrollbar-thumb:hover {
+    background-color: #f51e1e; /* Thumb color on hover */
+}
+
+/* Firefox */
+.eventSection .eventList {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #ccc #f2f2f2; /* Thumb color and track color */
+}
+
+.eventSection .eventList:hover {
+    scrollbar-color: #bbb #f2f2f2; /* Thumb color on hover */
+}
+
+.eventSection .eventList::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa; /* Thumb color on hover */
+}
+
+.eventSection .eventList::-webkit-scrollbar-corner {
+    background-color: transparent; /* Corner between vertical and horizontal scrollbars */
+}
