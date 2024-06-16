@@ -1,0 +1,46 @@
+.eventHostTypeContainer{
+   /* outline: 1px solid; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.eventHostTypeContainer .eventHostHead{
+    background-color: #feeaee;
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventHostHead h1{
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.eventHostHead p{
+    margin: 0;
+    text-align: center;
+}
+
+.eventHost-text{
+    /* border: 1px solid; */
+    text-align: start;
+    width: 90%;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+ /* containing list of all types of events to host  */
+
+.eventsToHost{
+    /* border: 1px solid red; */
+    background: rgb(236, 236, 255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 2rem; */
+    width:90vw;
+}

@@ -1,0 +1,75 @@
+.host-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    min-width:15rem;
+    margin: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.host-card:hover{
+    scale: 1.04;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* changing color of text of title of host on hovering it's card  */
+.host-card:hover  .host-card-content h2{
+    color: blue;
+}
+
+.icon-container {
+    background-color: #b8c7ee;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.host-card-content h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.link {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px; 
+    font-weight: 500;
+    color: #076bd5;
+    text-decoration: none;
+}
+
+.info-icon {
+    /* margin-left: auto;
+    display: flex;
+    align-items: center; */
+}
+.info-icon i{
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+}
+
+.info-circle {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+.info-circle:hover {
+    background-color: #d0d0d0;
+}
