@@ -1,0 +1,10 @@
+.particular-allEvent{
+   /* border: 1px solid; */
+}
+.all-events {
+    /* border: 1px solid red; */
+    /* width: vw; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
+}

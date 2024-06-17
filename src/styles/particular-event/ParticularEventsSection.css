@@ -1,0 +1,5 @@
+.particular-events-section{
+   display: flex;
+   padding: 1rem 5rem;
+   gap: 2rem;
+}

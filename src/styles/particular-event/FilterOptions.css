@@ -1,0 +1,46 @@
+.filter-bar {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 20px;
+    width: 20vw;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.filter-bar h2{
+    margin: 0;
+    font-weight: 600;
+}
+
+.filter-select,
+.filter-input,
+.filter-button
+{
+     outline: none;
+     border: 1px solid rgb(225, 225, 225);
+     border-radius: 3px;
+     padding: .6rem;
+}
+.date-range{
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    /* border: 1px solid; */
+}
+.date label{
+    font-size: 14px;
+}
+.filter-button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
